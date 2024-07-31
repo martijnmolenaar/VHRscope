@@ -1,0 +1,15 @@
+Package: VHRscope
+Type: R-package 
+Title: VHR/Natura2000 analysis utilities
+Version: 0.1.0
+Author: Martijn R. Molenaar, Ph.D.
+Maintainer: Martijn R. Molenaar, Ph.D. <m.rmolenaar@protonmail.comt>
+Description: VHR/Natura2000 analysis utilities
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  sf,
+  dplyr,
+  ggplot2
+RoxygenNote: 7.3.2
