@@ -1,5 +1,6 @@
 library(sf)
 library(dplyr)
+library(ggplot2)
 
 
 #' Performs a full union
@@ -68,3 +69,68 @@ st_full_union <- function(x,y) {
   union <- bind_rows(set1, set2, set3)
   return(st_as_sf(union))
 }
+
+#' Create discrete scale for Natura 2000 habitat types
+#' @description
+#' ggplot2 helper function to create a discrete scale for Natura 2000 habitat types
+#'
+#' @param palette character to indicate color palette: default 'PZ'.
+#' @param legend character to indicate the legend appearance: 'code', 'name' or 'name_code'
+
+
+scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
+  habitattypes <- read.csv(file = 'data/habitattypes_colors.csv', sep = ';')
+
+  habitattypes$color[habitattypes$habitattype == 'H0000'] <- rgb(1,1,1, .5)
+
+  if(legend == 'code'){
+    scale_fill_manual(values = habitattypes$color,
+                      breaks = habitattypes$habitattype,
+                      ...)
+  } else if (legend == 'name'){
+    scale_fill_manual(values = habitattypes$color,
+                      breaks = habitattypes$habitattype,
+                      labels = habitattypes$description,
+                      ...)
+  } else if (legend == 'name_code'){
+    scale_fill_manual(values = habitattypes$color,
+                      breaks = habitattypes$habitattype,
+                      labels = paste0(habitattypes$description, ' (',
+                                      habitattypes$habitattype, ')'),
+                      ...)
+  } else {
+    stop("For legend argument, choose either 'name', 'code' or 'name_code'")
+  }
+
+
+}
+
+#' Returns 'hoofdtype' van habitattypecode
+#'
+#' @param habitattype character vector with habittattype codes
+#' @examples
+#' example code
+#'
+#'
+#' library(VHRscope)
+#'
+#' habitathoofdtype('H2180A')
+
+habitathoofdtype <- function(habitattype){
+  gsub('[ABCDEFGboem]+$','',habitattype)
+}
+
+#' Returns 'habitattype' van habitatsubtypecode
+#'
+#' @param habitattype character vector with habittattype codes
+#' @examples
+#' library(VHRscope)
+#'
+#' habitattype(habitatsubtype = 'H2190Aom')
+#'
+habitattype <- function(habitatsubtype){
+  gsub('[boem]+$','',habitatsubtype)
+}
+
+
+

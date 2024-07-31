@@ -1,0 +1,40 @@
+habitattype;description;color
+H1110A;Permanent overstroomde zandbanken (getijdengebied);#829eff
+H1130;Estuaria;#33b7ff
+H1140;Slik- en zandplaten;#dfdfae
+H1140A;Slik- en zandplaten (getijdengebied);#e6e6b4
+H1140B;Slik- en zandplaten (Noordzee-kustzone);#cccc9f
+H1160;Grote baaien;#00ffff
+H1170;Riffen;#00dbff
+H1310;Zilte pionierbegroeiingen;#00ffb8
+H1310A;Zilte pionierbegroeiingen (zeekraal);#78ffb8
+H1310B;Zilte pionierbegroeiingen (zeevetmuur);#a6ffd0
+H1320;Slijkgrasvelden;#1980bd
+H1330A;Schorren en zilte graslanden (buitendijks);#a6bf94
+H1330B;Schorren en zilte graslanden (binnendijks);#7c7e62
+H2110;Embryonale duinen;#CCCC27
+H2120;Witte duinen;#EAEA2D
+H2130A;Grijze duinen kalkrijk;#EAE9E4
+H2130B;Grijze duinen kalkarm;#D2D4D0
+H2130C;Grijze duinen heischraal;#C0C0BB
+H2140;Duinheiden met kraaihei;#FD98D7
+H2150;Duinheiden met struikhei;#FDCAE9
+H2160;Duindoornstruweel;#FBB495
+H2170;Kruipwilgstruweel;#CEDDAD
+H2180A;Duinbos droog;#309997
+H2180B;Duinbos nat;#0D9920
+H2180C;Duinbos binnenduinrand;#5CAD41
+H2190A;Vochtig duinvallei open water;#C4F79F
+H2190B;Vochtig duinvallei kalkrijk;#71D55D
+H2190C;Vochtig duinvallei ontkalkt;#42DD44
+H2190D;Vochtig duinvallei hoge moerasplanten;#D0D4A5
+H2310;Stuifzandheiden met struikhei;#FFB2B2
+H3140;Kranswierwateren;#00E6D2
+H6410;Blauwgraslanden;#AEB9DA
+H6430B;Ruigten en zomen (harig wilgenroosje);#FF7272
+H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver);#FFFF46
+H7140B;Overgangs- en trilvenen (veenmosrietlanden);#FFFF73
+H7210;Galigaanmoerassen;#FFFF99
+H91E0A;Vochtige alluviale bossen (zachthoutooibossen);#DC9100
+H9999;Onbekend;#60E0EB
+H0000;Niet-kwalificerend habitat;#F2F2F2
