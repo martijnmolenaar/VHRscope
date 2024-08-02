@@ -79,7 +79,9 @@ st_full_union <- function(x,y) {
 
 
 scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
-  habitattypes <- read.csv(file = 'data/habitattypes_colors.csv', sep = ';')
+  #habitattypes <- read.csv(file = 'data/habitattypes_colors.csv', sep = ';')
+
+  habitattypes <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "habitattypes_colors.csv"))
 
   habitattypes$color[habitattypes$habitattype == 'H0000'] <- rgb(1,1,1, .5)
 
