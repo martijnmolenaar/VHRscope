@@ -13,3 +13,6 @@ Imports:
   dplyr,
   ggplot2
 RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

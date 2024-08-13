@@ -34,6 +34,7 @@ library(ggplot2)
 #'  geom_sf(aes(fill = cat.x, color = cat.y), alpha = .5)
 #'
 #'
+#' @export
 st_full_union <- function(x,y) {
   #
   # function doing a real GIS union operation such as in QGIS or ArcGIS
@@ -76,6 +77,7 @@ st_full_union <- function(x,y) {
 #'
 #' @param palette character to indicate color palette: default 'PZ'.
 #' @param legend character to indicate the legend appearance: 'code', 'name' or 'name_code'
+#' @export
 
 
 scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
@@ -113,7 +115,7 @@ scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
 #'
 #' @param palette character to indicate color palette: default 'PZ'.
 #' @param legend character to indicate the legend appearance: 'code', 'name' or 'name_code'
-
+#' @export
 
 scale_fill_beheertypes <- function(palette = 'PZ',legend = 'code', ...){
 
@@ -152,6 +154,7 @@ scale_fill_beheertypes <- function(palette = 'PZ',legend = 'code', ...){
 #' library(VHRscope)
 #'
 #' habitathoofdtype('H2180A')
+#' @export
 
 habitathoofdtype <- function(habitattype){
   gsub('[ABCDEFGboem]+$','',habitattype)
@@ -165,6 +168,7 @@ habitathoofdtype <- function(habitattype){
 #'
 #' habitattype(habitatsubtype = 'H2190Aom')
 #'
+#'@export
 habitattype <- function(habitatsubtype){
   gsub('[boem]+$','',habitatsubtype)
 }
