@@ -1,14 +1,48 @@
-beheertype_code;description;color
-N04.02;to_be_filled;#84bedd
-N04.04;to_be_filled;#afebdd
-N08.02;to_be_filled;#ffec8c
-N08.03;to_be_filled;#b6d6d1
-N10.02;to_be_filled;#edda4b
-N12.02;to_be_filled;#bde452
-N12.05;to_be_filled;#d9d990
-N12.06;to_be_filled;#8e8f4e
-N14.03;to_be_filled;#d58765
-N15.01;to_be_filled;#bdcb77
-N17.03;to_be_filled;#bfd687
-N17.04;to_be_filled;#efb24b
-N17.05;to_be_filled;#bea287
+"beheertype_code";"description";"color"
+"A01.01";"Weidevogelgebied";"#CAA4FF"
+"A02.01";"Botanisch waardevol grasland";"#A16894"
+"L01.01";"Poel en klein historisch water";"#A47158"
+"L01.02";"Houtwal en houtsingel";"#DF9B60"
+"L01.03";"Elzensingel";"#BF6F2A"
+"L01.05";"Knip- of scheerheg";"#A2CFE3"
+"L01.06";"Struweelhaag";"#E6C797"
+"L01.07";"Laan";"#A3E1E1"
+"L01.08";"Knotboom";"#84BEDD"
+"L01.09";"Hoogstamboomgaard";"#7DA6C8"
+"L16.01";"Bossingel";"#AFEBDD"
+"L02.01";"Fortterrein";"#859E7A"
+"L02.02";"Historisch bouwwerk en erf";"#1F78B4"
+"N01.01";"Zee en wad";"#98B59A"
+"N01.02";"Duin- en kwelderlandschap";"#6E8762"
+"N01.03";"Rivier- en moeraslandschap";"#D3D5FC"
+"N04.02";"Zoete plas";"#F7DA46"
+"N04.03";"Brak water";"#FFEC8C"
+"N04.04";"Afgesloten zeearm";"#B6D6D1"
+"N05.02";"Gemaaid rietland";"#B18D8A"
+"N05.04";"Dynamisch moeras";"#C0C200"
+"N06.01";"Veenmosrietland en moerasheide";"#EDDA4B"
+"N06.05";"Zwakgebufferd ven";"#EDD453"
+"N08.01";"Strand en embryonaal duin";"#ACDD37"
+"N08.02";"Open duin";"#EF8434"
+"N08.03";"Vochtige duinvallei";"#BDE452"
+"N08.04";"Duinheide";"#D9E76E"
+"N09.01";"Schor of kwelder";"#C6E886"
+"N10.02";"Vochtig hooiland";"#D9D990"
+"N11.01";"Droog schraalland";"#8E8F4E"
+"N12.01";"Bloemdijk";"#84DDAC"
+"N12.02";"Kruiden- en faunarijk grasland";"#ABDBC5"
+"N12.03";"Glanshaverhooiland";"#BA9EAD"
+"N12.04";"Zilt- en overstromingsgrasland";"#D58765"
+"N12.05";"Kruiden- en faunarijke akker";"#7DC33B"
+"N12.06";"Ruigteveld";"#BDCB77"
+"N13.01";"Vochtig weidevogelgrasland";"#909E71"
+"N14.01";"Rivier- en beekbegeleidend bos";"#A9A664"
+"N14.02";"Hoog- en laagveenbos";"#9DC699"
+"N14.03";"Haagbeuken- en essenbos";"#BFD687"
+"N15.01";"Duinbos";"#EFB24B"
+"N15.02";"Dennen-, eiken-, en beukenbos";"#BEA287"
+"N16.03";"Droog bos met productie";"#6FA23C"
+"N16.04";"Vochtig bos met productie";"#6C7741"
+"N17.03";"Park- en stinzenbos";"#292E18"
+"N17.04";"Eendenkooi";"#574E34"
+"N17.06";"Vochtig en hellinghakhout";"#DFB28A"
