@@ -79,7 +79,6 @@ st_full_union <- function(x,y) {
 
 
 scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
-  #habitattypes <- read.csv(file = 'data/habitattypes_colors.csv', sep = ';')
 
   habitattypes <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "habitattypes_colors.csv"), sep = ';')
 
@@ -99,6 +98,42 @@ scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
                       breaks = habitattypes$habitattype,
                       labels = paste0(habitattypes$description, ' (',
                                       habitattypes$habitattype, ')'),
+                      ...)
+  } else {
+    stop("For legend argument, choose either 'name', 'code' or 'name_code'")
+  }
+
+
+}
+
+
+#' Create discrete scale for SNL-beheertype codes
+#' @description
+#' ggplot2 helper function to create a discrete scale for SNL-beheertype codes
+#'
+#' @param palette character to indicate color palette: default 'PZ'.
+#' @param legend character to indicate the legend appearance: 'code', 'name' or 'name_code'
+
+
+scale_fill_beheertypes <- function(palette = 'PZ',legend = 'code', ...){
+
+  beheertypes <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "snl_beheertypen_colors.csv"), sep = ';')
+
+
+  if(legend == 'code'){
+    scale_fill_manual(values = beheertypes$color,
+                      breaks = beheertypes$beheertype_code,
+                      ...)
+  } else if (legend == 'name'){
+    scale_fill_manual(values = beheertypes$color,
+                      breaks = beheertypes$beheertype_code,
+                      labels = beheertypes$description,
+                      ...)
+  } else if (legend == 'name_code'){
+    scale_fill_manual(values = beheertypes$color,
+                      breaks = beheertypes$habitattype,
+                      labels = paste0(beheertypes$description, ' (',
+                                      beheertypes$beheertype_code, ')'),
                       ...)
   } else {
     stop("For legend argument, choose either 'name', 'code' or 'name_code'")
