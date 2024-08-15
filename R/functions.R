@@ -173,5 +173,79 @@ habitattype <- function(habitatsubtype){
   gsub('[boem]+$','',habitatsubtype)
 }
 
+#' Returns a dataframe with monitoring species requirements per SNL-beheertype
+#'
+#' @param beheertype character with SNL-beheertype code,'all' returns all beheertypen. See https://www.bij12.nl/onderwerp/natuursubsidies/index-natuur-en-landschap/natuurtypen/ for details.
+#' @examples
+#' library(VHRscope)
+#'
+#' get_SNL_monitoring_details()
+#'
+#'@export
+get_SNL_monitoring_details <- function(beheertype = 'all'){
+  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "snl_monitoring_details.csv"), sep = ';')
+  if(beheertype != 'all'){
+    return(df[df$beheercode == beheertype,])
+  } else {
+    return(df)
+  }
+}
 
+#' Returns a dataframe with main monitoring requirements per SNL-beheertype
+#'
+#' @param beheertype character with SNL-beheertype code,'all' returns all beheertypen. See https://www.bij12.nl/onderwerp/natuursubsidies/index-natuur-en-landschap/natuurtypen/ for details.
+#' @examples
+#' library(VHRscope)
+#'
+#' get_SNL_monitoring_overview()
+#'
+#'@export
+get_SNL_monitoring_overview <- function(beheertype = 'all'){
+  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "snl_monitoring_overview.csv"), sep = ';')
+  if(beheertype != 'all'){
+    return(df[df$beheercode == beheertype,])
+  } else {
+    return(df)
+  }
+}
+
+#' Returns a dataframe with monitoring requirements per Natura2000 habitattype
+#'
+#' @param habitattype character with habitattype code,'all' returns all beheertypen. See https://www.natura2000.nl/beschermde-natuur/habitattypen for details.
+#' @examples
+#' library(VHRscope)
+#'
+#' get_SNL_monitoring_overview()
+#'
+#'@export
+get_N2000_monitoring <- function(habitattype = 'all'){
+  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "N2000_typische_soorten.csv"), sep = ';')
+  if(habitattype != 'all'){
+    return(df[df$Habitattype == habitattype,])
+  } else {
+    return(df)
+  }
+}
+
+#' Returns an sf object with Dutch N2000 areas
+#'
+#' @param gebiedNummer character with official number of the area,'all' returns all areas. See https://www.natura2000.nl/gebieden for details.
+#' @examples
+#' library(VHRscope)
+#'
+#' sf_N2000 <- st_read_N2000NL()
+#'
+#' plot((sf_N2000 %>% filter(gebiedNummer %in% 116:126))[,1])
+#'
+#'@export
+st_read_N2000NL <- function(gebiedNummer = 'all'){
+
+  sf_N2000 <- st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "N2000_gebieden.gpkg"))
+
+  if(gebiedNummer != 'all'){
+    return(sf_N2000[sf_N2000$gebiedNummer == gebiedNummer,])
+  } else {
+    return(sf_N2000)
+  }
+}
 
