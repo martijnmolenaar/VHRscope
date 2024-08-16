@@ -42,8 +42,8 @@ st_full_union <- function(x,y) {
   x2 <- x
   y2 <- y
 
-  st_agr(x2) = "constant"
-  st_agr(y2) = "constant"
+  sf::st_agr(x2) = "constant"
+  sf::st_agr(y2) = "constant"
 
   ## make sure no duplicate names in x and y
   colnames_x <- colnames(x2)
@@ -59,11 +59,11 @@ st_full_union <- function(x,y) {
   colnames(y2)[colnames(y2) != attr(y2, "sf_column")] <- colnames_y2
 
 
-  set1 <- st_difference(y2,st_union(x2))
-  set2 <- st_difference(x2, st_union(y2))
+  set1 <- sf::st_difference(y2,sf::st_union(x2))
+  set2 <- sf::st_difference(x2, sf::st_union(y2))
 
-  set3 <- st_intersection(x2, y2)
-  union <- bind_rows(set1, set2, set3)
+  set3 <- sf::st_intersection(x2, y2)
+  union <- dplyr::bind_rows(set1, set2, set3)
   return(st_as_sf(union))
 }
 
@@ -83,16 +83,16 @@ scale_fill_habitats <- function(palette = 'PZ',legend = 'code', ...){
   habitattypes$color[habitattypes$habitattype == 'H0000'] <- rgb(1,1,1, .5)
 
   if(legend == 'code'){
-    scale_fill_manual(values = habitattypes$color,
+    ggplot2::scale_fill_manual(values = habitattypes$color,
                       breaks = habitattypes$habitattype,
                       ...)
   } else if (legend == 'name'){
-    scale_fill_manual(values = habitattypes$color,
+    ggplot2::scale_fill_manual(values = habitattypes$color,
                       breaks = habitattypes$habitattype,
                       labels = habitattypes$description,
                       ...)
   } else if (legend == 'name_code'){
-    scale_fill_manual(values = habitattypes$color,
+    ggplot2::scale_fill_manual(values = habitattypes$color,
                       breaks = habitattypes$habitattype,
                       labels = paste0(habitattypes$description, ' (',
                                       habitattypes$habitattype, ')'),
@@ -119,16 +119,16 @@ scale_fill_beheertypes <- function(palette = 'PZ',legend = 'code', ...){
 
 
   if(legend == 'code'){
-    scale_fill_manual(values = beheertypes$color,
+    ggplot2::scale_fill_manual(values = beheertypes$color,
                       breaks = beheertypes$beheertype_code,
                       ...)
   } else if (legend == 'name'){
-    scale_fill_manual(values = beheertypes$color,
+    ggplot2::scale_fill_manual(values = beheertypes$color,
                       breaks = beheertypes$beheertype_code,
                       labels = beheertypes$description,
                       ...)
   } else if (legend == 'name_code'){
-    scale_fill_manual(values = beheertypes$color,
+    ggplot2::scale_fill_manual(values = beheertypes$color,
                       breaks = beheertypes$habitattype,
                       labels = paste0(beheertypes$description, ' (',
                                       beheertypes$beheertype_code, ')'),
@@ -236,7 +236,7 @@ get_N2000_monitoring <- function(habitattype = 'all'){
 #'@export
 st_read_N2000NL <- function(gebiedNummer = 'all'){
 
-  sf_N2000 <- st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "N2000_gebieden.gpkg"))
+  sf_N2000 <- sf::st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "N2000_gebieden.gpkg"))
 
   if(gebiedNummer != 'all'){
     return(sf_N2000[sf_N2000$gebiedNummer == gebiedNummer,])
