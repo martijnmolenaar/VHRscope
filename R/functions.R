@@ -1,9 +1,6 @@
-library(sf)
-library(dplyr)
-library(ggplot2)
 
 
-#' Performs a full union
+#' Performs a full union as in i.e. QGIS
 #'
 #' @param x An sf object.
 #' @param y An sf object.
@@ -32,7 +29,6 @@ library(ggplot2)
 #'
 #'ggplot(data = C)+
 #'  geom_sf(aes(fill = cat.x, color = cat.y), alpha = .5)
-#'
 #'
 #' @export
 st_full_union <- function(x,y) {

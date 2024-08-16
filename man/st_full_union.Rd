@@ -2,7 +2,7 @@
 % Please edit documentation in R/functions.R
 \name{st_full_union}
 \alias{st_full_union}
-\title{Performs a full union}
+\title{Performs a full union as in i.e. QGIS}
 \usage{
 st_full_union(x, y)
 }
@@ -15,7 +15,7 @@ st_full_union(x, y)
 An sf object.
 }
 \description{
-Performs a full union
+Performs a full union as in i.e. QGIS
 }
 \examples{
 library(VHRscope)
@@ -41,6 +41,5 @@ C <- st_full_union(x = A, y = B)
 
 ggplot(data = C)+
  geom_sf(aes(fill = cat.x, color = cat.y), alpha = .5)
-
 
 }
