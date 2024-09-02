@@ -51,8 +51,8 @@ st_full_union <- function(x,y) {
   colnames_y <- colnames(y2)
   colnames_y <- colnames_y[colnames_y != attr(y2, "sf_column")]
 
-  colnames_x2 <- ifelse(colnames_x %in% colnames_y, paste0(colnames_x, '.x'))
-  colnames_y2 <- ifelse(colnames_y %in% colnames_x, paste0(colnames_y, '.y'))
+  colnames_x2 <- ifelse(colnames_x %in% colnames_y, paste0(colnames_x, '.x'),colnames_x)
+  colnames_y2 <- ifelse(colnames_y %in% colnames_x, paste0(colnames_y, '.y'),colnames_y)
 
 
   colnames(x2)[colnames(x2) != attr(x2, "sf_column")] <- colnames_x2
