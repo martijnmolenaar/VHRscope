@@ -238,8 +238,7 @@ get_N2000_monitoring <- function(habitattype = 'all'){
 #'@export
 st_read_N2000NL <- function(gebiedNummer = 'all'){
 
-  sf_N2000 <- sf::st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "N2000_gebieden.gpkg"))
-
+  sf_N2000 <- sf::st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "natura2000.gpkg"))
   if(gebiedNummer != 'all'){
     return(sf_N2000[sf_N2000$gebiedNummer == gebiedNummer,])
   } else {
