@@ -266,6 +266,6 @@ st_read_kmhokken <- function(){
 #'
 #'@export
 get_soortenlijst <- function(){
-  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "soortenlijst_NDFF.csv",fileEncoding="latin1"), sep = ',')
+  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "soortenlijst_NDFF.csv"),fileEncoding="latin1", sep = ',')
   return(df)
 }
