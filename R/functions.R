@@ -225,10 +225,6 @@ get_N2000_monitoring <- function(habitattype = 'all'){
 
 #' Returns a dataframe with species and metadata from NDFF and SOVON
 #'
-#' @examples
-#' library(VHRscope)
-#'
-#' get_soortenlijst()
 #'
 #'@export
 get_soortenlijst <- function(){

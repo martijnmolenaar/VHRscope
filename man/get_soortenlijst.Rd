@@ -9,9 +9,3 @@ get_soortenlijst()
 \description{
 Returns a dataframe with species and metadata from NDFF and SOVON
 }
-\examples{
-library(VHRscope)
-
-get_soortenlijst()
-
-}
