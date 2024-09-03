@@ -43,7 +43,7 @@ Melkkruid;Glaux maritima;Vaatplanten;K + Ca;H1330B;Schorren en zilte graslanden 
 Rode bies;Blysmus rufus;Vaatplanten;E;H1330B;Schorren en zilte graslanden (binnendijks)
 Schorrenzoutgras;Triglochin maritima;Vaatplanten;K + Ca;H1330B;Schorren en zilte graslanden (binnendijks)
 Stekende bies;Schoenoplectus pungens;Vaatplanten;K;H1330B;Schorren en zilte graslanden (binnendijks)
-Stomp kweldergras;Puccinellia distans ssp. Distans;Vaatplanten;K;H1330B;Schorren en zilte graslanden (binnendijks)
+Stomp kweldergras;Puccinellia distans ssp. Distans;Vaatplanten;TRUE;H1330B;Schorren en zilte graslanden (binnendijks)
 Zeealsem;Artemisia maritima;Vaatplanten;K;H1330B;Schorren en zilte graslanden (binnendijks)
 Zeegerst;Hordeum marinum;Vaatplanten;K;H1330B;Schorren en zilte graslanden (binnendijks)
 Zeerus;Juncus maritimus;Vaatplanten;K;H1330B;Schorren en zilte graslanden (binnendijks)
@@ -187,3 +187,302 @@ Sprinkhaanzanger;Locustella naevia ssp. naevia;Vogels;Cab;H2190C;Vochtige duinva
 Wulp;Numenius arquata ssp. Arquata;Vogels;Cab;H2190C;Vochtige duinvalleien (ontkalkt)
 Dodaars;Tachybaptus ruficollis ssp. Ruficollis;Vogels;Cab;H2190D;Vochtige duinvalleien (hoge moerasplanten)
 Sprinkhaanzanger;Locustella naevia ssp. naevia;Vogels;Cab;H2190D;Vochtige duinvalleien (hoge moerasplanten)
+Zandzager;Nephtys hombergii;Borstelwormen;Ca;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Groene zeeduizendpoot;Alitta virens;Borstelwormen;Ca;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+;Spio martinensis;Borstelwormen;Ca;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Schelpkokerworm;Lanice conchilega;Borstelwormen;Ca;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Harnasmannetje;Agonus cataphractus;Vissen;Ca;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Vijfdradige meun;Ciliata mustela;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Haring;Clupea harengus;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Schar;Limanda limanda;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Slakdolf;Liparis liparis;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Gewone zeedonderpad;Myoxocephalus scorpius;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Botervis;Pholis gunnellus;Vissen;K + Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Bot;Platichthys flesus;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Schol;Pleuronectes platessa;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Puitaal;Zoarces viviparus;Vissen;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Wulk;Buccinum undatum;Weekdieren;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Nonnetje;Macoma balthica;Weekdieren;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Strandgaper;Mya arenaria;Weekdieren;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Mossel;Mytilus edulis;Weekdieren;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Kokkel;Cerastoderma edule;Weekdieren;Cab;H1110A;Permanent overstroomde zandbanken (getijdengebied)
+Schelpkokerworm;Lanice conchilega;Borstelwormen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Zandkokerworm;Spiophanes bombyx;Borstelwormen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+;Nephtys cirrosa;Borstelwormen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+;Nephtys hombergii;Borstelwormen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+;Magelona papillicornis;Borstelwormen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Kniksprietkreeftje;Bathyporeia elegans;Kreeftachtigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Gewone zwemkrab;Liocarcinus holsatus;Kreeftachtigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Bulldozerkreeftje;Urothoe poseidonis;Kreeftachtigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Gewone heremietkreeft;Pagurus bernhardus;Kreeftachtigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+;Pontocrates altamarinus;Kreeftachtigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Hartegel;Echinocardium cordatum;Stekelhuidigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Gewone slangster;Ophiura ophiura;Stekelhuidigen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Dwergtong;Buglossidium luteum;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Haring;Clupea harengus;Vissen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Kleine pieterman;Echiichthys vipera;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Pitvis;Callionymus lyra;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Schol;Pleuronectes platessa;Vissen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Tong;Solea solea;Vissen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Wijting;Merlangius merlangus;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Harnasmannetje;Agonus cataphractus;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Schurftvis;Arnoglossus laterna;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Vijfdradige meun;Ciliata mustela;Vissen;Ca;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Slakdolf;Liparis liparis;Vissen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Zeedonderpad;Myoxocephalus scorpius;Vissen;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Witte dunschaal;Abra alba;Weekdieren;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Wulk;Buccinum undatum;Weekdieren;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Glanzende tepelhoorn;Euspira pulchella;Weekdieren;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Halfgeknotte strandschelp;Spisula subtruncata;Weekdieren;K;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Nonnetje;Macoma balthica;Weekdieren;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Rechtsgestreepte platschelp   Angulus fabula;Weekdieren;Cab;;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Zaagje;Donax vittatus;Weekdieren;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Grote strandschelp;Mactra stultorum;Weekdieren;Cab;H1110B;Permanent overstroomde zandbanken (Noordzee-kustzone)
+Dodemansduim;Alcyonium digitatum;Bloemdieren;K + Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Schelpkokerworm;Lanice conchilega;Borstelwormen;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+;Sigalion mathildae;Borstelwormen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Zeemuis;Aphrodita aculeata;Borstelwormen;K + Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+;Goniada maculata;Borstelwormen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+;Magelona papillicornis;Borstelwormen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+;Nephtys cirrosa;Borstelwormen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Zandzager;Nephtys hombergii;Borstelwormen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Zandkokerworm;Spiophanes bombyx;Borstelwormen;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Kniksprietkreeftje;Bathyporeia elegans;Kreeftachtigen;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Kniksprietkreeftje;Bathyporeia guilliamsoniana;Kreeftachtigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Helmkrab;Corystes cassivelaunus;Kreeftachtigen;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Gewone zwemkrab;Liocarcinus holsatus;Kreeftachtigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+;Urothoe poseidonis;Kreeftachtigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Gewone heremietkreeft;Pagurus bernhardus;Kreeftachtigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Ingegraven slangster;Acrocnida brachiata;Stekelhuidigen;E;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Kamster;Astropecten irregularis;Stekelhuidigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Zeeboontje;Echinocyamus pusillus;Stekelhuidigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+;Luidia sarsii;Stekelhuidigen;K + Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Brokkelster;Ophiothrix fragilis;Stekelhuidigen;K + Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Gewone slangster;Ophiura ophiura;Stekelhuidigen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Schurftvis;Arnoglossus laterna;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Dwergtong;Buglossidium luteum;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Pitvis;Callionymus lyra;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Grauwe poon;Eutrigla gurnardus;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Kabeljauw;Gadus morhua;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Schar;Limanda limanda;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Wijting;Merlangius merlangus;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Tongschar;Microstomus kitt;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Schol;Pleuronectes platessa;Vissen;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Rechtsgestreepte platschelp;Angulus fabula;Weekdieren;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Noordkromp;Arctica islandica;Weekdieren;Ca;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Wulk;Buccinum undatum;Weekdieren;K + Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Kleine zwaardschede;Ensis ensis;Weekdieren;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Glanzende tepelhoorn;Euspira pulchella;Weekdieren;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Geplooide zonneschelp;Gari fervensis;Weekdieren;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Tweetandschelp;Kurtiella bidentata;Weekdieren;Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Noordhoren;Neptunea antiqua;Weekdieren;K + Cab;H1110C;Permanent overstroomde zandbanken (Doggersbank)
+Bot;Platichthys flesus;Vissen;Cab;H1130;Estuaria
+Harnasmannetje;Agonus cataphractus;Vissen;Ca;H1130;Estuaria
+Wijting;Merlangius merlangus;Vissen;Ca;H1130;Estuaria
+Zeedonderpad;Myoxocephalus scorpius;Vissen;Ca;H1130;Estuaria
+Haring;Clupea harengus;Vissen;Cab;H1130;Estuaria
+Schar;Limanda limanda;Vissen;Cab;H1130;Estuaria
+Slakdolf;Liparis liparis;Vissen;Cab;H1130;Estuaria
+Spiering;Osmerus eperlanus;Vissen;Cab;H1130;Estuaria
+Schol;Pleuronectes platessa;Vissen;Cab;H1130;Estuaria
+Tong;Solea solea;Vissen;Cab;H1130;Estuaria
+Ansjovis;Engraulis encrasicolus;Vissen;Ca;H1130;Estuaria
+Botervis;Pholis gunnellus;Vissen;Cab;H1130;Estuaria
+Puitaal;Zoarces viviparus;Vissen;Ca;H1130;Estuaria
+Nonnetje;Macoma balthica;Weekdieren;Cab;H1130;Estuaria
+Strandgaper;Mya arenaria;Weekdieren;Cab;H1130;Estuaria
+Wadslakje;Peringia ulvae;Weekdieren;Cab;H1130;Estuaria
+Opgezwollen brakwaterhorentje;Ecrobia ventrosa;Weekdieren;Cab;H1130;Estuaria
+Mossel;Mytilus edulis;Weekdieren;Cab;H1130;Estuaria
+Kokkel;Cerastoderma edule;Weekdieren;Cab;H1130;Estuaria
+Slijkgarnaal;Corophium volutator;Kreeftachtigen;Cab;H1130;Estuaria
+Zeeduizendpoot;Hediste diversicolor;Borstelwormen;Ca;H1130;Estuaria
+Rode draadworm;Heteromastus filiformis;Borstelwormen;Ca;H1130;Estuaria
+Zandkokerworm;Pygospio elegans;Borstelwormen;Cab;H1130;Estuaria
+Groot zeegras;Zostera marina;Vaatplanten;Cab;H1130;Estuaria
+Klein zeegras;Zostera noltii;Vaatplanten;Cab;H1130;Estuaria
+Schelpkokerworm;Lanice conchilega;Borstelwormen;K + Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Wadpier;Arenicola marina;Borstelwormen;K + Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Zager;Nereis virens;Borstelwormen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Zandzager;Nephtys hombergii;Borstelwormen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Zeeduizendpoot;Nereis diversicolor;Borstelwormen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Gewone strandkrab;Carcinus maenas;Kreeftachtigen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Garnaal;Crangon crangon;Kreeftachtigen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Groot zeegras;Zostera marina;Vaatplanten;K + Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Klein zeegras;Zostera noltii;Vaatplanten;K + Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Kokkel;Cerastoderma edule;Weekdieren;K + Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Mossel;Mytilus edulis;Weekdieren;K + Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Nonnetje;Macoma balthica;Weekdieren;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Platte slijkgaper;Scrobicularia plana;Weekdieren;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Strandgaper;Mya arenaria;Weekdieren;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Wulk;Buccinium undatum;Weekdieren;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Schol;Pleronectes platessa;Vissen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Bot;Platichtys flesus;Vissen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Diklipharder;Mugil labrosus;Vissen;Cab;H1140A;Slik- en zandplaten (Getijdengebied)
+Gemshoornworm;Scolelepis squamata;Borstelwormen;K + Cab;H1140B;Slik- en zandplaten (Noordzeekustzone)
+Schelpkokerworm;Lanice conchilega;Borstelwormen;Cab;H1140B;Slik- en zandplaten (Noordzeekustzone)
+Zandvlokreeft;Hausorius arenarius;Kreeftachtigen;Cab;H1140B;Slik- en zandplaten (Noordzeekustzone)
+Zeeanjelier;Metridium senile;Bloemdieren;Cab;H1160;Grote baaien
+Wadpier;Arenicola marina;Borstelwormen;;H1160;Grote baaien
+Schelpkokerworm;Lanice conchilega;Borstelwormen;Ca;H1160;Grote baaien
+Zandzager;Nephtys hombergii;Borstelwormen;Ca;H1160;Grote baaien
+Zeeduizendpoot;Nereis diversicolor;Borstelwormen;Ca;H1160;Grote baaien
+Gewone strandkrab;Carcinus maenas;Kreeftachtigen;Cab;H1160;Grote baaien
+Buldozerkreeftje;Urothoe poseidonis;Kreeftachtigen;Cab;H1160;Grote baaien
+Groot zeegras;Zostera marina;Vaatplanten;Ca;H1160;Grote baaien
+Klein zeegras;Zostera noltii;Vaatplanten;K + Ca;H1160;Grote baaien
+Bot;Platichthys flesus;Vissen;Cab;H1160;Grote baaien
+Haring;Clupea harengus;Vissen;Cab;H1160;Grote baaien
+Puitaal;Zoarces viviparus;Vissen;Ca;H1160;Grote baaien
+Schar;Limanda limanda;Vissen;Ca;H1160;Grote baaien
+Schol;Pleuronectes platessa;Vissen;Ca;H1160;Grote baaien
+Steenbolk;Trisopterus luscus;Vissen;Ca;H1160;Grote baaien
+Wijting;Merlangius merlangius;Vissen;Cab;H1160;Grote baaien
+Zeedonderpad;Myoxocephalus scorpius;Vissen;Ca;H1160;Grote baaien
+Hartegel;Echinocardium cordatum;Stekelhuidigen;Ca;H1160;Grote baaien
+Kokkel;Cerastoderma edule;Weekdieren;Ca;H1160;Grote baaien
+Mossel;Mytilus edulis;Weekdieren;Ca;H1160;Grote baaien
+Klein schorrenkruid;Suaeda maritima;Vaatplanten;Ca;H1310A;Zilte pionierbegroeiingen (zeekraal)
+Kortarige zeekraal;Salicornia europaea;Vaatplanten;K + Ca;H1310A;Zilte pionierbegroeiingen (zeekraal)
+Langarige zeekraal;Salicornia procumbens;Vaatplanten;K + Ca;H1310A;Zilte pionierbegroeiingen (zeekraal)
+Deens lepelblad;Cochlearia danica;Vaatplanten;Ca;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Fijn goudscherm;Bupleurum tenuissimum;Vaatplanten;K;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Fraai duizendguldenkruid;Centaurium pulchellum;Vaatplanten;K + Ca;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Herfstbitterling;Blackstonia perfoliata ssp. Serotina;Vaatplanten;K;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Hertshoornweegbree;Plantago coronopus;Vaatplanten;K + Ca;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Laksteeltje;Catapodium marinum;Vaatplanten;K;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Sierlijke vetmuur;Sagina nodosa;Vaatplanten;K + Ca;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Strandduizendguldenkruid;Centaurium littorale;Vaatplanten;K + Ca;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Zeevetmuur;Sagina maritima;Vaatplanten;K + Ca;H1310B;Zilte pionierbegroeiingen (zeevetmuur)
+Klein slijkgras;Spartina maritima;Vaatplanten;K;H1320;Slijkgrasvelden
+Bruin heidestaartje;Cladonia glauca;Korstmossen;Ca;H2150;Duinheiden met struikhei
+Girafje;Cladonia gracilis;Korstmossen;Ca;H2150;Duinheiden met struikhei
+Open rendiermos;Cladina portentosa;Korstmossen;Ca;H2150;Duinheiden met struikhei
+Moerasparelmoervlinder;Euphydryas aurinia ssp. Aurinia;Dagvlinders;K*;H6410;Blauwgraslanden
+Zilveren maan;Boloria selene;Dagvlinders;K;H6410;Blauwgraslanden
+Blauwe knoop;Succisa pratensis;Vaatplanten;Ca;H6410;Blauwgraslanden
+Blauwe zegge;Carex panicea;Vaatplanten;Ca;H6410;Blauwgraslanden
+Blonde zegge;Carex hostiana;Vaatplanten;K;H6410;Blauwgraslanden
+Klein glidkruid;Scutellaria minor;Vaatplanten;K;H6410;Blauwgraslanden
+Kleine valeriaan;Valeriana dioica;Vaatplanten;K;H6410;Blauwgraslanden
+Knotszegge;Carex buxbaumii;Vaatplanten;K;H6410;Blauwgraslanden
+Kranskarwij;Carum verticillatum;Vaatplanten;K;H6410;Blauwgraslanden
+Melkviooltje;Viola persicifolia;Vaatplanten;E;H6410;Blauwgraslanden
+Spaanse ruiter;Cirsium dissectum;Vaatplanten;E;H6410;Blauwgraslanden
+Vlozegge;Carex pulicaris;Vaatplanten;K;H6410;Blauwgraslanden
+Watersnip;Gallinago gallinago ssp. gallinago;Vogels;Cab;H6410;Blauwgraslanden
+Purperstreepparelmoervlinder;Brenthis ino;Dagvlinders;E3;H6430A;Ruigten en zomen (moerasspirea)
+Hertsmunt;Mentha longifolia;Vaatplanten;K;H6430A;Ruigten en zomen (moerasspirea)
+Lange ereprijs;Veronica longifolia;Vaatplanten;K;H6430A;Ruigten en zomen (moerasspirea)
+Moerasspirea;Filipendula ulmaria;Vaatplanten;K + Cab;H6430A;Ruigten en zomen (moerasspirea)
+Moeraswolfsmelk;Euphorbia palustris;Vaatplanten;K;H6430A;Ruigten en zomen (moerasspirea)
+Poelruit;Thalictrum flavum;Vaatplanten;K;H6430A;Ruigten en zomen (moerasspirea)
+Bosrietzanger;Acrocephalus palustris;Vogels;Cab;H6430A;Ruigten en zomen (moerasspirea)
+Dwergmuis;Micromys minutus;Zoogdieren;Cb;H6430A;Ruigten en zomen (moerasspirea)
+Waterspitsmuis;Neomys fodiens ssp. fodiens;Zoogdieren;Cab;H6430A;Ruigten en zomen (moerasspirea)
+Echt lepelblad;Cochlearia officinalis ssp. officinalis;Vaatplanten;K;H6430B;Ruigten en zomen (harig wilgenroosje)
+Heemst;Althaea officinalis;Vaatplanten;K;H6430B;Ruigten en zomen (harig wilgenroosje)
+Moerasmelkdistel;Sonchus palustris;Vaatplanten;K + Cab;H6430B;Ruigten en zomen (harig wilgenroosje)
+Rivierkruiskruid;Senecio sarracenicus;Vaatplanten;K;H6430B;Ruigten en zomen (harig wilgenroosje)
+Selderij;Apium graveolens;Vaatplanten;K;H6430B;Ruigten en zomen (harig wilgenroosje)
+Zomerklokje;Leucojum aestivum;Vaatplanten;K;H6430B;Ruigten en zomen (harig wilgenroosje)
+Bosrietzanger;Acrocephalus palustris;Vogels;Cab;H6430B;Ruigten en zomen (harig wilgenroosje)
+Dwergmuis;Micromys minutus;Zoogdieren;Cb;H6430B;Ruigten en zomen (harig wilgenroosje)
+Besanjelier;Silene baccifera;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Fijne kervel;Anthriscus caucalis;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Kleine kaardebol;Dipsacus pilosus;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Knolribzaad;Chaerophyllum bulbosum;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Kruisbladwalstro;Cruciata laevipes;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Stijve steenraket;Erysimum virgatum;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Torenkruid;Arabis glabra;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Welriekende agrimonie;Agrimonia procera;Vaatplanten;K;H6430C;Ruigten en zomen (droge bosranden)
+Geelsprietdikkopje;Thymelicus sylvestris;Dagvlinders;Cb;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Beemdooievaarsbek;Geranium pratense;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Bermooievaarsbek;Geranium pyrenaicum;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Gele morgenster;Tragopogon pratensis ssp. pratensis;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Goudhaver;Trisetum flavescens;Vaatplanten;Ca;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Graslathyrus;Lathyrus nissolia;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Groot streepzaad;Crepis biennis;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Karwij;Carum carvi;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Karwijvarkenskervel;Peucedanum carvifolia;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Kluwenklokje;Campanula glomerata;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Oosterse morgenster;Tragopogon pratensis ssp. orientalis;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Rapunzelklokje;Campanula rapunculus;Vaatplanten;K;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Kwartel;Coturnix coturnix ssp. coturnix;Vogels;Cab;H6510A;Glanshaver- en vossenstaarthooilanden (glanshaver)
+Geelsprietdikkopje;Thymelicus sylvestris;Dagvlinders;Cb;H6510B;Glanshaver- en vossenstaarthooilanden (grote vossenstaart)
+Grote pimpernel;Sanguisorba officinalis;Vaatplanten;K;H6510B;Glanshaver- en vossenstaarthooilanden (grote vossenstaart)
+Noords walstro;Galium boreale;Vaatplanten;K;H6510B;Glanshaver- en vossenstaarthooilanden (grote vossenstaart)
+Trosdravik;Bromus racemosus;Vaatplanten;K;H6510B;Glanshaver- en vossenstaarthooilanden (grote vossenstaart)
+Weidekervel;Silaum silaus;Vaatplanten;K;H6510B;Glanshaver- en vossenstaarthooilanden (grote vossenstaart)
+Wilde kievitsbloem;Fritillaria meleagris;Vaatplanten;K;H6510B;Glanshaver- en vossenstaarthooilanden (grote vossenstaart)
+;Anabolia brevipennis;Kokerjuffers;K;H7140A;Overgangs- en trilvenen (trilvenen)
+Gevind moerasvorkje;Riccardia multifida;Mossen;K;H7140A;Overgangs- en trilvenen (trilvenen)
+Kwelviltsterrenmos;Rhizomnium pseudopunctatum;Mossen;K;H7140A;Overgangs- en trilvenen (trilvenen)
+Rood schorpioenmos;Scorpidium scorpioides;Mossen;K;H7140A;Overgangs- en trilvenen (trilvenen)
+Trilveenveenmos;Sphagnum contortum;Mossen;K;H7140A;Overgangs- en trilvenen (trilvenen)
+Ronde zegge;Carex diandra;Vaatplanten;K + Ca;H7140A;Overgangs- en trilvenen (trilvenen)
+Slank wollegras;Eriophorum gracile;Vaatplanten;E;H7140A;Overgangs- en trilvenen (trilvenen)
+Veenmosorchis;Hammarbya paludosa;Vaatplanten;K;H7140A;Overgangs- en trilvenen (trilvenen)
+Grote vuurvlinder;Lycaena dispar ssp. batava;Dagvlinders;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+;Anabolia brevipennis;Kokerjuffers;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+;Limnephilus incisus;Kokerjuffers;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Elzenmos;Pallavicinia lyellii;Mossen;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Glanzend veenmos;Sphagnum subnitens;Mossen;Ca;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Broos vuurzwammetje;Hygrocybe helobia;Paddenstoelen;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Kaal veenmosklokje;Galerina tibiicystis;Paddenstoelen;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Moerashoningzwam;Armillaria ectypa;Paddenstoelen;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Veenmosbundelzwam;Pholiota henningsii;Paddenstoelen;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Veenmosgrauwkop;Tephrocybe palustris;Paddenstoelen;Cab;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Veenmosvuurzwammetje;Hygrocybe coccineocrenata;Paddenstoelen;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Gouden sprinkhaan;Chrysochraon dispar;Sprinkhanen & krekels;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Kamvaren;Dryopteris cristata;Vaatplanten;Ca;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Ronde zonnedauw;Drosera rotundifolia;Vaatplanten;Ca;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Veenmosorchis;Hammarbya paludosa;Vaatplanten;K;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Watersnip;Gallinago gallinago ssp. gallinago;Vogels;Cab;H7140B;Overgangs- en trilvenen (veenmosrietlanden)
+Blauwborst;Luscinia svecica ssp. cyanecula;Vogels;Cab;H7210;Galigaanmoerassen
+Grote ijsvogelvlinder;Limenitis populi;Dagvlinders;K*;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Groot touwtjesmos;Anomodon viticulosus;Mossen;K;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Spatelmos;Homalia trichomanoides;Mossen;K;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Tonghaarmuts;Orthotrichum rogeri;Mossen;K;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Vloedschedemos;Timmia megapolitana;Mossen;E;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Vloedvedermos;Fissidens gymnandrus;Mossen;K;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Bittere veldkers;Cardamine amara;Vaatplanten;K;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Zwarte populier;Populus nigra;Vaatplanten;K;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Grote bonte specht;Dendrocopos major ssp. pinetorum;Vogels;Cb;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Kwak;Nycticorax nycticorax ssp. nycticorax;Vogels;K*;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Bever;Castor fiber ssp. Albicus;Zoogdieren;Cab;H91E0A;Vochtige alluviale bossen (zachthoutooibossen)
+Grote ijsvogelvlinder;Limenitis populi;Dagvlinders;K*;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Groot touwtjesmos;Anomodon viticulosus;Mossen;K;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Spatelmos;Homalia trichomanoides;Mossen;K;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Bloedzuring;Rumex sanguineus;Vaatplanten;K;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Grote bonte specht;Dendrocopos major ssp. pinetorum;Vogels;Cb;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Matkop;Parus montanus ssp. rhenanus;Vogels;Cb;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Nachtegaal;Luscinia megarhynchos ssp. megarhynchos;Vogels;Cab;H91E0B;Vochtige alluviale bossen (essen-iepenbossen)
+Vuursalamander;Salamandra salamandra ssp. terrestris;Amfibieen;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Grote ijsvogelvlinder;Limenitis populi;Dagvlinders;K*;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Grote weerschijnvlinder;Apatura iris;Dagvlinders;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Kleine ijsvogelvlinder;Limenitis camilla;Dagvlinders;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+;Lepidostoma hirtum;Kokerjuffers;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Alpenheksenkruid;Circaea alpina;Vaatplanten;E;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Bittere veldkers;Cardamine amara;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Bloedzuring;Rumex sanguineus;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Bosereprijs;Veronica montana;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Bosmuur;Stellaria nemorum;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Bospaardenstaart;Equisetum sylvaticum;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Boswederik;Lysimachia nemorum;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Gele monnikskap;Aconitum vulparia;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Gladde zegge;Carex laevigata;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Groot springzaad;Impatiens noli-tangere;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Hangende zegge;Carex pendula;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Klein heksenkruid;Circaea x intermedia;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Knikkend nagelkruid;Geum rivale;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Paarbladig goudveil;Chrysosplenium oppositifolium;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Reuzenpaardenstaart;Equisetum telmateia;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Slanke zegge;Carex strigosa;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Verspreidbladig goudveil;Chrysosplenium alternifolium;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Witte rapunzel;Phyteuma spicatum ssp. spicatum;Vaatplanten;K;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Appelvink;Coccothraustes ssp. coccothraustes;Vogels;Cb;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Boomklever;Sitta europaea ssp. caesia;Vogels;Cb;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Grote bonte specht;Dendrocopos major ssp. pinetorum;Vogels;Cb;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Matkop;Parus montanus ssp. rhenanus;Vogels;Cb;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)
+Waterspitsmuis;Neomys fodiens ssp. Fodiens;Zoogdieren;Cab;H91E0C;Vochtige alluviale bossen (beekbegeleidende bossen)

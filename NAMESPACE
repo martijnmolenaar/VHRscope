@@ -3,6 +3,7 @@
 export(get_N2000_monitoring)
 export(get_SNL_monitoring_details)
 export(get_SNL_monitoring_overview)
+export(get_soortenlijst)
 export(habitathoofdtype)
 export(habitattype)
 export(scale_fill_beheertypes)

@@ -223,6 +223,19 @@ get_N2000_monitoring <- function(habitattype = 'all'){
   }
 }
 
+#' Returns a dataframe with species and metadata from NDFF and SOVON
+#'
+#' @examples
+#' library(VHRscope)
+#'
+#' get_soortenlijst()
+#'
+#'@export
+get_soortenlijst <- function(){
+  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "soortenlijst_NDFF.csv"), sep = ';')
+  return(df)
+}
+
 #' Returns an sf object with Dutch N2000 areas
 #'
 #' @param gebiedNummer character with official number of the area,'all' returns all areas. See https://www.natura2000.nl/gebieden for details.
@@ -257,8 +270,6 @@ st_read_N2000NL <- function(gebiedNummer = 'all'){
 st_read_kmhokken <- function(){
 
   sf_km <- sf::st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "km_hokken.gpkg"))
-
   return(sf_km)
-
 }
 
