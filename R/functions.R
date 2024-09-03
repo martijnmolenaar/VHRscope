@@ -264,9 +264,8 @@ st_read_kmhokken <- function(){
 
 #' Returns a dataframe with species and metadata from NDFF and SOVON
 #'
-#'
 #'@export
 get_soortenlijst <- function(){
-  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "soortenlijst_NDFF.csv"), sep = ',')
+  df <- read.csv(file = file.path(system.file(package = "VHRscope"), "extdata", "soortenlijst_NDFF.csv",fileEncoding="latin1"), sep = ',')
   return(df)
 }
