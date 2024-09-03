@@ -245,3 +245,20 @@ st_read_N2000NL <- function(gebiedNummer = 'all'){
   }
 }
 
+#' Returns an sf object with Dutch (NDFF) kilometer-hokken
+#'
+#' @examples
+#' library(VHRscope)
+#'
+#' sf_km <- st_read_kmhokken()
+#'
+#'
+#'@export
+st_read_kmhokken <- function(){
+
+  sf_km <- sf::st_read(dsn = file.path(system.file(package = "VHRscope"), "extdata", "km_hokken.gpkg"))
+
+  return(sf_km)
+
+}
+
