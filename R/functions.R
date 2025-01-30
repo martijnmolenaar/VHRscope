@@ -129,7 +129,7 @@ scale_fill_beheertypes <- function(palette = 'PZ',legend = 'code', ...){
                       ...)
   } else if (legend == 'name_code'){
     ggplot2::scale_fill_manual(values = beheertypes$color,
-                      breaks = beheertypes$habitattype,
+                      breaks = beheertypes$beheertype_code,
                       labels = paste0(beheertypes$description, ' (',
                                       beheertypes$beheertype_code, ')'),
                       ...)
